@@ -10,6 +10,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="506" y="113" key="CommitChangelistDialog2" timestamp="1590240349743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="506" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-258.-1600.1200.1560@0.0.1920.1040" timestamp="1590240349743" />
     <state x="821" y="414" key="Github.ShareDialog" timestamp="1590240315314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -18,5 +22,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1040/-258.-1600.1200.1560@0.0.1920.1040" timestamp="1590240320934" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590240354375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-258.-1600.1200.1560@0.0.1920.1040" timestamp="1590240354375" />
   </component>
 </project>
