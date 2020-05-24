@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="utf-8">
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-    <title>TP4</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title> Web Socket </title>
     </head>
     <body>
-        <h1 class="h1">TP n4 WebSocket</h1>
+        <h1 style="text-align: center;">TP n4 Web Socket</h1>
         <hr>
         <br>
-        <div class="container-fuild">
+        <div class='container'>
             <div class="card">
-                <h5 class="card-header">Chat</div>
+                <div class="card-header">
+                    <h1> Chat </h1>
+                </div>
                 <div class="card-body">
-                    <textarea name="" id="" cols="260" rows="10"></textarea>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text" id="">Message ></span>
-                        </div>
-                        <input type="text" class="form-control" value="Entrez votre Message">
-                      </div>
-                      <button type="button" class="offset-md-11 btn btn-success"><span class="material-icons">send</span>Envoyer</button>
+                    <textarea class="form-control" aria-label="With textarea" id="textarea" disabled></textarea>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Message ></span>
+                        <input type="text" id="msg" name="msg" placeholder="Entrez votre message" aria-describedby="basic-addon1" class="form-control">
+                    </div>
+                    <button class="offset-md-11 btn btn-success" id="send"> <span class="material-icons"> send </span> Envoyer</button>
                 </div>
             </div>
-        </div> 
+        </div>
 
 
 
-        <script src="js/chatClient.js"></script>
+        <script src="js/chatClient.js"> </script>
     </body>
 </html>

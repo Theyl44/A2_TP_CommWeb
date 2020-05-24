@@ -1,5 +1,5 @@
 let websocket;
-websocket = new WebSocket('ws://localhost:12345');
+websocket = new WebSocket('ws://localhost:12344');
 
 websocket.onopen = function(event) {
   console.log('Connexion établie');
