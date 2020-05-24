@@ -1,19 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a74a70bd-0f53-4b62-8e58-e1edc5f912a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BS/exo2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BS/exo2/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Théo\Desktop\ISEN\2019-2020 CIR2\INFO\Comm Web\tp - commeWeb" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1cJIODjguw5aKhGjZbv5Dp02nWS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PHP/TP10" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a74a70bd-0f53-4b62-8e58-e1edc5f912a3" name="Default Changelist" comment="" />
+      <created>1590240234931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590240234931</updated>
+      <workItem from="1590240236169" duration="437000" />
+      <workItem from="1590313872372" duration="13000" />
+      <workItem from="1590320548778" duration="24000" />
+    </task>
+    <task id="LOCAL-00001" summary="edit">
+      <created>1590240350786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590240350786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/TypeScript/Cercle1.js" />
+        <option value="$PROJECT_DIR$/TypeScript/main1.js" />
+        <option value="$PROJECT_DIR$/TypeScript/Point1.js" />
+        <option value="$PROJECT_DIR$/TypeScript/Rectangle1.js" />
+        <option value="$PROJECT_DIR$/TypeScript/Shape1.js" />
+        <option value="$PROJECT_DIR$/TypeScript/test.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="113" key="CommitChangelistDialog2" timestamp="1590240349743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="506" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-258.-1600.1200.1560@0.0.1920.1040" timestamp="1590240349743" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590320571558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-258.-1600.1200.1560@0.0.1920.1040" timestamp="1590320571558" />
     <state x="821" y="414" key="Github.ShareDialog" timestamp="1590240315314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -26,5 +100,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-258.-1600.1200.1560@0.0.1920.1040" timestamp="1590240354375" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590320551105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-258.-1600.1200.1560@0.0.1920.1040" timestamp="1590320551105" />
   </component>
 </project>

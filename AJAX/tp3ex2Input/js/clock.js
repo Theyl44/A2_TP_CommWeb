@@ -25,7 +25,7 @@ function displayClock(time)
   drawBackground(context, radius);
   drawNumbers(context, radius);
   // Call the drawHands function
-  drawHands (context,radius,time);
+  drawHands(context,radius,time);
   context.setTransform(1, 0, 0, 1, 0, 0);
 }
 

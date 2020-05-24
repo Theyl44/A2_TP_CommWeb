@@ -2,6 +2,7 @@
 function displayTime(response){
     document.getElementById('title').innerHTML = '<strong>'+response[0]+'</strong>';
     document.getElementById('detail').innerHTML = '<strong><p style="color: blue">*** Detail ***</p>'+'<p>hours :'+response[1]['hours']+'</p>'+'<p>minutes :'+response[1]['minutes']+'</p>'+'<p>seconds :'+response[1]['seconds']+'</p></strong>';
+    alert("yo");
     displayClock(response);
 }
 function gestErr(call){
@@ -43,7 +44,7 @@ function ajaxRequest(type, url, callback, callback2){
             case 201 :  let response = JSON.parse(xhr.responseText);
                         // console.log(xhr.responseText);
                         // console.log(response);
-                        displayTime(response);
+                        callback(response);
                         break;
             default :   console.log('HTTP error' + xhr.status);//callback xhr.statu
                         callback2(xhr.status);
