@@ -2,7 +2,7 @@ let websocket;
 websocket = new WebSocket('ws://localhost:12344');
 
 websocket.onopen = function(event) {
-  console.log('Connexion établie');
+  console.log('Connexion établie'); 
   websocket.send('Hi server!');
 }
 
