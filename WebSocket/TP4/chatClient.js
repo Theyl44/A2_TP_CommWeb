@@ -7,11 +7,7 @@ function createWebSocket(){
 }
 function sendMessage(){
     let data = document.getElementById("msg").value;
-    let tchat = document.getElementById("textarea");
-
-    tchat.setAttribute("disabled", false);
-    tchat.append(login+": "+data+"\n");
-    tchat.setAttribute("disabled", true);
+    document.getElementById("msg").value = "";
     websocket.send(login+" :"+data);
 }
 
@@ -24,7 +20,6 @@ websocket.onclose = function(){
     websocket.send(login+" a quitté le tchat");
 }
 websocket.onmessage = function(event){//recoit un msg du serveur et l'affiche dans le tchat 
-    // console.log("test recoit msg");
     let tchat = document.getElementById("textarea");
     tchat.setAttribute("disabled", false);
     tchat.append(event.data+"\n");
